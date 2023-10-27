@@ -38,21 +38,36 @@
   --maximum-yellow-red: hsl(41, 99%, 64%);
   --orange-red_a20: hsla(19, 100%, 55%, 0.2);
   --eerie-black: hsl(210, 11%, 15%);
-  --orange-red: hsl(19, 100%, 55%);
+  /*--orange-red: hsl(19, 100%, 55%);*/
+  --orange-red: hsl(165.6, 27.78%, 64.71%);
   --davys-gray: hsl(0, 0%, 33%);
-  --white_a80: hsla(0, 0%, 100%, 0.8);
-  --white_a75: hsla(0, 0%, 100%, 0.75);
-  --white_a10: hsla(0, 0%, 100%, 0.1);
+  --white_a80: hsl(338.82, 10.18%, 32.75%);
+  --white_a75: hsl(338.82, 10.18%, 32.75%);
+  --white_a10: hsl(338.82, 10.18%, 32.75%);
   --jet_a10: hsla(0, 0%, 22%, 0.1);
-  --black: hsl(0, 0%, 0%);
-  --white: hsl(0, 0%, 100%);
-  --jet: hsl(0, 0%, 22%);
+  /*--black: hsl(0, 0%, 0%);*/
+  --black: hsl(51.76, 66.23%, 84.9%);
+
+  /*--white: hsl(0, 0%, 100%);*/
+  --white: hsl(338.82, 10.18%, 32.75%);
+
+  /*--jet: hsl(0, 0%, 22%);*/
+  --jet: hsl(51.76, 66.23%, 84.9%);
+
+ /*Vintage Color Pallette*/
+  --brown: hsl(338.82, 10.18%, 32.75%);
+  --aquamarine: hsl(165.6, 27.78%, 64.71%) ;
+  --beige: hsl(51.76, 66.23%, 84.9%);
+  --orange: hsl(34.34, 85.8%, 66.86%);
+  --red: hsl(0, 82.76%, 65.88%);
+
 
   /**
    * typography
    */
 
-  --ff-jost: 'Jost', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+
 
   --fs-45: 4.5rem;
   --fs-38: 3.8rem;
@@ -150,7 +165,7 @@ ion-icon { pointer-events: none; }
 address { font-style: normal; }
 
 html {
-  font-family: var(--ff-jost);
+  font-family: var(--ff-montserrat);
   font-size: 10px;
   scroll-behavior: smooth;
 }
@@ -316,7 +331,7 @@ body.loaded { overflow: visible; }
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--black);
   padding-block: 16px;
   z-index: 4;
   transition: var(--transition-1);
