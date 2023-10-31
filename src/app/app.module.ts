@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { IonicModule } from '@ionic/angular';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { ServiceComponent } from './service/service.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -16,7 +15,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HomeComponent,
     ContactComponent,
-    ServiceComponent,
     PortfolioComponent,
     HeaderComponent,
     FooterComponent

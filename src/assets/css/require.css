@@ -34,7 +34,8 @@
    */
 
   --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
-  --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
+  /*--maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);*/
+  --maximum-yellow-red_a40: hsl(165.6, 27.78%, 64.71%);
   --maximum-yellow-red: hsl(41, 99%, 64%);
   --orange-red_a20: hsla(19, 100%, 55%, 0.2);
   --eerie-black: hsl(210, 11%, 15%);
@@ -43,7 +44,7 @@
   --davys-gray: hsl(0, 0%, 33%);
   --white_a80: hsl(338.82, 10.18%, 32.75%);
   --white_a75: hsl(338.82, 10.18%, 32.75%);
-  --white_a10: hsl(338.82, 10.18%, 32.75%);
+  --white_a10: hsla(0, 0%, 100%, 0.1);
   --jet_a10: hsla(0, 0%, 22%, 0.1);
   /*--black: hsl(0, 0%, 0%);*/
   --black: hsl(51.76, 66.23%, 84.9%);
@@ -51,8 +52,8 @@
   /*--white: hsl(0, 0%, 100%);*/
   --white: hsl(338.82, 10.18%, 32.75%);
 
-  /*--jet: hsl(0, 0%, 22%);*/
-  --jet: hsl(51.76, 66.23%, 84.9%);
+  /*--font-color: hsl(0, 0%, 22%);*/
+  --font-color: hsl(51.76, 66.23%, 84.9%);
 
  /*Vintage Color Pallette*/
   --brown: hsl(338.82, 10.18%, 32.75%);
@@ -95,7 +96,7 @@
    * shadow
    */
 
-  --shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);
+  --shadow: 0 0px 1px var(--font-color);
 
   /**
    * border radius
@@ -172,7 +173,7 @@ html {
 
 body {
   background-color: var(--white);
-  color: var(--davys-gray);
+  color: var(--font-color);
   font-size: 1.6rem;
   line-height: 1.5;
   overflow: hidden;
@@ -233,7 +234,7 @@ body.loaded { overflow: visible; }
 .title-md,
 .title-sm,
 .label-lg {
-  color: var(--jet);
+  color: var(--font-color);
   font-weight: var(--fw-600);
   line-height: 1.2;
 }
@@ -346,7 +347,7 @@ body.loaded { overflow: visible; }
 }
 
 .nav-toggle-btn {
-  color: var(--jet);
+  color: var(--font-color);
   font-size: 3.8rem;
 }
 
@@ -356,7 +357,7 @@ body.loaded { overflow: visible; }
   left: 0;
   width: 100%;
   background-color: var(--white);
-  border-block: 2px solid var(--jet);
+  border-block: 2px solid var(--font-color);
   transition: 0.25s var(--cubic-out);
   transition-delay: 0.15s;
   transform: scaleY(0);
@@ -401,7 +402,7 @@ body.loaded { overflow: visible; }
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--jet);
+  background-color: var(--font-color);
   color: var(--white_a75);
   border-block-start: 1px solid var(--white_a10);
   padding-block: 18px;
