@@ -36,7 +36,7 @@
 \*-----------------------------------*/
 
 .contact {
-  background-color: var(--jet);
+  background-color: var(--white);
   padding-block-start: calc(var(--section-padding) + 60px);
 }
 
@@ -46,7 +46,6 @@
 }
 
 .contact-form {
-  background-color: var(--white);
   padding: 25px;
 }
 
@@ -56,13 +55,13 @@
 
 .input-field {
   padding: 10px 12px;
-  border: 1px solid var(--jet);
+  border: 1px solid var(--aquamarine);
   margin-block-end: 24px;
   outline: none;
   transition: box-shadow var(--transition-1);
 }
 
-.input-field:focus { box-shadow: inset 0 0 0 1px var(--jet); }
+.input-field:focus { box-shadow: inset 0 0 0 1px var(--aquamarine); }
 
 textarea {
   resize: vertical;
@@ -91,7 +90,7 @@ textarea {
 .contact-list .item-icon ion-icon { font-size: 2.5rem; }
 
 .contact .label-lg {
-  color: var(--white_a80);
+  color: var(--font-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-400);
@@ -99,7 +98,7 @@ textarea {
 }
 
 .contact .body-lg {
-  color: var(--white);
+  color: var(--font-color);
   word-break: break-all;
 }
 

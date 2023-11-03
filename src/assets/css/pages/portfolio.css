@@ -36,7 +36,7 @@
 \*-----------------------------------*/
 
 .portfolio {
-  background-color: var(--maximum-yellow-red_a10);
+  background-color: var(--white);
   padding-block-start: calc(var(--section-padding) + 60px);
 }
 
@@ -55,7 +55,7 @@
 }
 
 .portfolio-card .card-banner:is(:hover, :focus-within) {
-  box-shadow: 3px 3px 0 var(--jet);
+  box-shadow: 3px 3px 0 var(--font-color);
 }
 
 .portfolio-card .btn-icon {
@@ -66,7 +66,7 @@
   color: var(--jet);
   font-size: 2rem;
   padding: 8px;
-  border: 2px solid var(--jet);
+  border: 2px solid var(--font-colort);
   opacity: 0;
   transition: var(--transition-1);
   will-change: transform;
@@ -78,9 +78,9 @@
 }
 
 .portfolio-card .chip {
-  background-color: var(--orange-red_a20);
+  background-color: var(--aquamarine);
   max-width: max-content;
-  color: var(--jet);
+  color: var(--white);
   font-weight: var(--fw-500);
   text-transform: uppercase;
   letter-spacing: 3px;

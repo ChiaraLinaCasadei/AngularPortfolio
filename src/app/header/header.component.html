@@ -6,7 +6,7 @@
     <div class="container">
 
       <a routerLink="/home" class="logo">
-        <img src="assets/images/logo.svg" width="151" height="28" alt="Chiara home">
+        <img src="assets/images/chiara-logo.png" width="151" height="28" alt="Chiara home">
       </a>
 
       <nav class="navbar" data-navbar [ngClass]="status ? 'active' : ''">
@@ -26,8 +26,8 @@
 
         </ul>
       </nav>
-
-      <a routerLink="/contact" class="btn btn-primary">Contact Now</a>
+      <!--TODO: Que descargue el CV al apretar el botón-->
+      <a routerLink="/contact" class="btn btn-primary">Download my CV</a>
 
       <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler (click)="addToggle()">
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
